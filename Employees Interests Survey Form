@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Employee Interests Survey</title>
+    </head>
+        <body>
+            <form action="http://google.co.in">
+                <div align="center">
+                    <h1>Employee Interests Survey Form</h1>
+                    Enter your name:
+                    <input type="text" name="UserName" size="35" maxlength="35" value="">
+                    <br><br>
+                    Enter your department:
+                    <input type="text" name="Dept" size="35" maxlength="35" value="">
+                    <br><br>
+                    Tell us a little about yourself:
+                    <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+                    <br><br>
+                    Do you exercise at home?
+                    <input type="radio" id="Yes" name="exercise" value="Yes">
+                    <label for="Yes">Yes</label>
+                    <input type="radio" id="No" name="exercise" value="No">
+                    <label for="No">No</label>
+                    <br><br>
+                    How do you like to read about your favourite topics?
+                    <br><br>
+                    <input type="checkbox" name="Books" id="read1" value="Books">
+                    <label for="read1">Books</label>
+                    <input type="checkbox" name="Web" id="read2" value="Web">
+                    <label for="read2">Web</label>
+                    <input type="checkbox" name="Phone Apps" id="read3" value="Phone Apps">
+                    <label for="read3">Phone Apps</label>
+                    <input type="checkbox" name="Magazines" id="read4" value="Magazines">
+                    <label for="read4">Magazines</label>
+                    <br><br>
+                    What genre of movies do you like?
+                    <select name="movies" id="movies">
+                        <option value="Comedy">Comedy</option>
+                        <option value="Horror">Horror</option>
+                        <option value="Action">Action</option>
+                        <option value="Romance">Romance</option>
+                    </select>
+                    <br><br>
+                    <input type="Submit" value="Submit">
+                </div>
+            </form>
+        </body>
+</html>
